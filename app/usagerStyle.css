@@ -1,0 +1,295 @@
+body {
+    font-family:	"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:		12px; 
+    background-color:	#FCEFE5;
+    margin: 0;
+    background-image: url('logos/backusager.jpg');
+}
+
+#header {
+    position:           absolute; 
+    top:                0;
+    padding:            10px 0px;
+    width:              100%;
+    height:             20px;
+    text-align:		left;
+    color:              #afadab;
+    background-color:   #000000;
+    
+}
+
+
+#header h2 {
+    margin:             0;
+    font-weight:        normal;
+    float:              left;
+    margin-left: 15px;
+}
+
+
+#header a{
+    color:              #FFFFFF;
+}
+
+
+
+.addUsager {
+    float: left;
+}
+
+.logOff {
+    font-size: 14px;
+    float: right;
+}
+
+/*  CONTENT     */
+#container {
+    margin-top:         50px;
+    margin-bottom:      30px;
+    float:              left;
+    width:              100%;
+    clear:              both;
+    
+}
+
+.contenu {
+    border-radius:      8px;
+    float:              left;
+    width:              1000px;
+    height: 20px;
+    margin-left:        3%;
+   
+}
+
+
+/*  TAB NAVIGATION   */
+.nav_tab {
+    list-style-type: none;
+    border-bottom: 1px solid #000000;
+    width:  94%;
+    padding : 0 3%;
+    
+}
+
+ul.nav_tab li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 0;
+    background-color: #FFFFFF;
+    margin-bottom: -1px;
+    color: #000000;
+}
+ul.nav_tab li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #000000;
+}
+
+ul.nav_tab li a:hover{
+    color: #FFFFFF;
+}
+
+.nav_tab li:hover {
+    background-color: #D2691E;
+}
+
+ul.nav_tab li.active {
+    background:-webkit-gradient( linear, left top,left bottom,  color-stop(0.05, #bf5f00), color-stop(1, #000000) );
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+ul.nav_tab li.active a{
+    color: #FFFFFF;
+}
+
+
+.nav_tab a {
+    padding: 10px;
+    color: #b3a091;
+}
+
+.contenu table {
+    border: 1px solid #e0c8b6;
+    background-color: #FCEFE5;
+    margin: 20px;
+    text-align: center;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.contenu table tr th {
+    background-color: #000000; 
+}
+
+.contenu table tr:hover{
+    background-color: #cab4a2; 
+}
+
+.contenu table.liste tr:hover {
+    color: #FFFFFF;
+}
+
+.contenu .fiche table{
+    font-size: 12px;
+    text-align: left;
+    width: 80%;
+}
+
+.fiche tr {
+    background-color: #FFFFFF;    
+}
+
+.contenu .fiche table td {
+    background-color: #FFFFFF;  
+}
+
+#footer z{
+    position: fixed; 
+    bottom: 0; 
+    
+    width: 100%;
+    text-align:         center;
+    clear:              both;
+    background-color:   #000000;
+    color:              #FFFFFF;
+    font-size: 30px;
+}
+
+h1 {
+    color:              #FFFFFF;
+    margin:             10px;
+    border-bottom:      3px double #e0c8b6;
+}
+
+a {
+    color:              #303881;
+    text-decoration:    none;
+}
+
+/* MENU */
+.menuGauche {
+    border:             1px solid #e0c8b6;
+    border-radius:      8px;
+    float:              left;
+    width:              220px;
+
+    min-height: 500px; 
+    background:-o-linear-gradient(bottom, #bf5f00 5%,#000000  100%);	
+    background:-webkit-gradient( linear, right top,left top,  color-stop(0.05, #bf5f00), color-stop(1, #000000) );
+    background:-moz-linear-gradient( center top, #000000 5%, #bf5f00 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#bf5f00");	
+    background: -o-linear-gradient(top,#000000,bf5f00);
+    margin-left: 15px;
+}
+
+.menuGauche ul {
+    list-style-type:    none;
+    font-size:          16px;
+    margin:             0;
+    padding:            0;
+}
+
+.menuGauche ul li a {
+    display:            block;
+    padding:            8px;
+    color: #FFFFFF;
+}
+
+.menuGauche ul li a:hover {
+    background-color:   #fdf6f1;
+    color:              #5d534b;
+    display:            block;
+    padding:            8px;
+}
+
+.menuGauche li:hover {
+    background-color: #fdf6f1;
+}
+
+.menuGauche li.active a{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-bottom: 1px solid #fdf6f1; 
+}
+
+
+/* LOGIN */
+
+.login{
+    color:              #000000;
+    border:             1px solid #e0c8b6;
+    border-radius:      8px;
+    margin:             auto;
+    width:              35%;
+    background-color:   #FCEFE5;
+}
+
+.login p {
+    margin: 10px;
+}
+
+btnLogin{
+    color:              #e0c8b6;
+    border:             1px solid #e0c8b6;
+    border-radius:      8px;
+    margin:             auto;
+    text-align:         center;
+    width:              20%;
+    background-color:   red;
+}
+
+.sectiontitle{
+    font-size: 20px;
+    border-bottom: 1px solid blue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logoClient{
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+.controlesFiche{
+    text-align: right;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.controlesFiche li { display: inline; }
+
+
+.controlesView{
+    list-style: none;    
+    text-align: right;
+}
+
+.nomModule{
+    font-size: 35px;
+    float: left;
+}
+
+.userViewHeader div.viewName{
+    float : left;
+    height: 30px;
+    width: 600px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#container .contenu .userFiche{
+    width: 95%;
+    border-radius: 8px;
+    background-color:  #FCEFE5;
+}
+
+#container .contenu .userFiche table {
+    border-radius: 8px;
+}
+
+.contenu .userFiche .userViewHeader table {
+    text-align: left;
+}
